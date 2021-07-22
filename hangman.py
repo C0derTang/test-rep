@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-    word = random.choice(["python", "java", "syntax", "javascript", "c", "function", "mathematics", "logistics", "console", "ruby", "r", "programming", "coding", "scratch"])
+    word = random.choice(["python", "java", "syntax", "javascript", "c", "function", "mathematics", "logistics", "console", "ruby", "r", "programming", "coding", "scratch", "git", "github"])
     valid_letters = "abcdefghijklmnopqrstuvwxyz"
     turns = 10
     guess_made= ''
